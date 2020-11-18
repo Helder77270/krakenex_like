@@ -33,7 +33,7 @@ print("\n")
 def repeatedTickerRequest():
     starttime = time.time() #Démarre un chrono à l'heure actuelle
     average = 0.0
-    api = API.API(key='a0BWIk6U52YdgMikKlbCFiMaP8O87kjdGWmSaWCi03PtTRHImYThdKau', secret='aOtvRUVC5R/yJbNC05WGQWXINHZVPVUmbF6CBrLhg+1AaAXltFGvoreBIUVJFTBOH8b1yE0iAgTfHIVLJDVVRA==')
+    api = API.API(key='YOURKEY', secret='YOURSECRET')
     
     while True: #Boucle infinie
         print("tic")
